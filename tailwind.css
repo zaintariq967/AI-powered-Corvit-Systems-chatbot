@@ -1,0 +1,6 @@
+/* Tailwind-compatible local layer for the static Antigravity/Netlify demo.
+   The design is intentionally written in normal CSS so Live Preview renders correctly
+   without requiring a Tailwind build process. */
+:root{--tw-ring-offset-shadow:0 0 transparent;--tw-ring-shadow:0 0 transparent}
+.container{width:100%;margin-left:auto;margin-right:auto}
+.hidden{display:none}.block{display:block}.flex{display:flex}.grid{display:grid}.items-center{align-items:center}.justify-between{justify-content:space-between}

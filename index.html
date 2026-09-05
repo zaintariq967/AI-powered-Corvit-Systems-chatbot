@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Corvit Systems — professional student guidance and IT training demo website.">
+  <title>Corvit Systems | IT Training & Student Guidance</title>
+  <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="navbar" id="top">
+      <a class="brand" href="#home" aria-label="Corvit Systems home">
+        <span class="brand-mark">C</span>
+        <span><strong>Corvit</strong><small>Systems</small></span>
+      </a>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open navigation">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#courses" class="nav-link">Courses</a>
+        <a href="#training" class="nav-link">Training</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#guidance" class="nav-link">Student Guidance</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="nav-ai-btn" id="navChatBtn">
+        <span class="spark">✦</span> Ask Corvit AI
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse-dot"></span> Corvit Student Assistant</div>
+          <h1>Build the skills that<br><span>build your career.</span></h1>
+          <p class="hero-text">
+            Explore professional IT training, current batches, career paths and student guidance
+            through one intelligent Corvit experience.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#courses">Explore Courses <span>→</span></a>
+            <button class="btn btn-soft" id="heroChatBtn">Talk to AI Assistant</button>
+          </div>
+          <div class="hero-trust">
+            <span>✓ Hands-on training</span>
+            <span>✓ Online & on-campus</span>
+            <span>✓ Career-focused guidance</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="hero-card main-card">
+            <div class="mini-label">STUDENT DASHBOARD</div>
+            <div class="dashboard-title">Find your right path</div>
+            <div class="path-row"><span class="path-icon blue">⌘</span><div><b>Networking</b><small>CCNA → CCNP → Advanced</small></div><span>›</span></div>
+            <div class="path-row"><span class="path-icon purple">⌁</span><div><b>AI & Data</b><small>Python → ML → Deep Learning</small></div><span>›</span></div>
+            <div class="path-row"><span class="path-icon green">◈</span><div><b>Cloud & DevOps</b><small>AWS → Azure → DevOps</small></div><span>›</span></div>
+            <div class="dashboard-footer"><span class="status-dot"></span> AI guidance available</div>
+          </div>
+          <div class="floating-card batch-card">
+            <span class="floating-icon">◷</span>
+            <div><b>Current batches</b><small>September 2026</small></div>
+          </div>
+          <div class="floating-card lab-card">
+            <span class="floating-icon">⌁</span>
+            <div><b>Hands-on labs</b><small>Practical learning</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-strip">
+        <div><b>25+</b><span>Years of training experience</span></div>
+        <div><b>70K+</b><span>CCNA-trained professionals</span></div>
+        <div><b>7K+</b><span>Corporate trainings</span></div>
+        <div><b>24/7</b><span>Lab availability claim</span></div>
+      </section>
+
+      <section class="section" id="courses">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">LEARNING PATHS</div>
+            <h2>Explore professional courses</h2>
+          </div>
+          <p>Choose a field and discover the training path that fits your goals.</p>
+        </div>
+
+        <div class="filter-tabs" id="courseFilters">
+          <button class="filter active" data-filter="all">All Courses</button>
+          <button class="filter" data-filter="networking">Networking</button>
+          <button class="filter" data-filter="cybersecurity">Cyber Security</button>
+          <button class="filter" data-filter="cloud">Cloud</button>
+          <button class="filter" data-filter="ai_and_programming">AI & Data</button>
+        </div>
+        <div class="course-grid" id="courseGrid"></div>
+      </section>
+
+      <section class="section split-section" id="training">
+        <div>
+          <div class="eyebrow">WHY CORVIT</div>
+          <h2>Training built around practical skills.</h2>
+          <p class="section-copy">
+            The official Corvit material emphasizes certified instructors, practical labs,
+            vendor technologies and multiple training modes.
+          </p>
+          <div class="feature-list">
+            <div><span>01</span><b>Hands-on labs</b><small>Practice with real networking and technical environments.</small></div>
+            <div><span>02</span><b>Certified instructors</b><small>Vendor and industry certification experience.</small></div>
+            <div><span>03</span><b>Flexible delivery</b><small>Classroom, one-to-one, customer premise and online/e-learning.</small></div>
+          </div>
+        </div>
+        <div class="image-stack" id="facilityImages"></div>
+      </section>
+
+      <section class="section guidance-section" id="guidance">
+        <div class="guidance-panel">
+          <div class="eyebrow">CAREER GUIDANCE</div>
+          <h2>Not sure what to learn next?</h2>
+          <p>
+            Tell the assistant your background, interests and career goal. It can recommend a
+            sensible starting path instead of claiming one course is universally best.
+          </p>
+          <div class="guidance-chips">
+            <button class="chip" data-question="I am a complete beginner. Which Corvit course should I start with?">I'm a beginner</button>
+            <button class="chip" data-question="I want to become a network engineer. What path should I follow?">Network Engineer</button>
+            <button class="chip" data-question="I want to become an AI engineer. Which courses should I take?">AI Engineer</button>
+            <button class="chip" data-question="I want to enter cybersecurity. What should I learn first?">Cyber Security</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">ABOUT CORVIT</div>
+            <h2>Professional IT education with a practical focus.</h2>
+          </div>
+        </div>
+        <div class="about-grid">
+          <div class="about-card large">
+            <h3 id="aboutTitle">Corvit Systems</h3>
+            <p id="aboutDescription">Loading official knowledge...</p>
+            <a id="officialHomeLink" class="text-link" target="_blank" rel="noopener">Visit official website →</a>
+          </div>
+          <div class="about-card">
+            <span class="card-icon">◫</span>
+            <h3>Training modes</h3>
+            <p id="trainingModes">Online, classroom and flexible training options.</p>
+          </div>
+          <div class="about-card">
+            <span class="card-icon">◎</span>
+            <h3>Student support</h3>
+            <p>Career guidance, admissions information and course-selection assistance.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <div class="eyebrow">CONTACT</div>
+          <h2>Need verified information?</h2>
+          <p>For dynamic fees, seats and schedule changes, the assistant points students to official Corvit sources.</p>
+        </div>
+        <div class="contact-card">
+          <div><span>📍</span><div><b>Head Office</b><p id="contactAddress">Loading...</p></div></div>
+          <div><span>☎</span><div><b>Phone</b><p id="contactPhone">Loading...</p></div></div>
+          <div><span>✉</span><div><b>Email</b><p id="contactEmail">Loading...</p></div></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div><b>Corvit Systems</b><span>Student-focused IT training demo</span></div>
+      <span>© 2026 Demo UI • Information should be verified from official sources.</span>
+    </footer>
+  </div>
+
+  <!-- ONE chatbot only -->
+  <button class="chat-launcher" id="chatLauncher" aria-label="Open Corvit AI Assistant">
+    <span class="bot-face"><i></i><i></i></span>
+  </button>
+
+  <div class="chat-overlay" id="chatOverlay"></div>
+
+  <aside class="chatbot" id="chatbot" aria-label="Corvit AI Assistant">
+    <div class="chat-header">
+      <div class="chat-brand">
+        <div class="chat-avatar"><span>✦</span></div>
+        <div><b>Corvit AI Assistant</b><small><span class="online-dot"></span> Knowledge + online search</small></div>
+      </div>
+      <div class="chat-header-actions">
+        <button id="clearChat" title="Clear chat">↺</button>
+        <button id="closeChat" title="Close">×</button>
+      </div>
+    </div>
+
+    <div class="search-status" id="searchStatus">
+      <span>●</span> Official knowledge mode
+      <button id="toggleOnlineSearch">Enable online search</button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages"></div>
+
+    <div class="quick-questions" id="quickQuestions">
+      <button data-question="What courses does Corvit offer?">Courses</button>
+      <button data-question="What is the current timetable?">Timetable</button>
+      <button data-question="Which courses are free through NAVTTC?">NAVTTC</button>
+      <button data-question="Show me Corvit lab images.">Images</button>
+    </div>
+
+    <form class="chat-input-area" id="chatForm">
+      <textarea id="chatInput" rows="1" placeholder="Ask about courses, timetable, instructors, fees, labs, careers..." autocomplete="off"></textarea>
+      <button type="submit" id="sendBtn" aria-label="Send">↑</button>
+      <div class="input-note">AI can use Corvit dataset and, when enabled, live web search.</div>
+    </form>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>

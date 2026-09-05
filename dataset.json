@@ -1,0 +1,1905 @@
+{
+  "meta": {
+    "name": "Corvit Systems Knowledge Base",
+    "version": "2.0",
+    "last_verified": "2026-09-05",
+    "source_policy": "Official Corvit Systems website first. Dynamic information such as schedules, fees, seats and offers must be verified from the linked official source before being presented as current.",
+    "primary_domain": "https://corvit.com/systems/",
+    "language_support": [
+      "English",
+      "Roman Urdu",
+      "Urdu"
+    ],
+    "purpose": "Ground the website chatbot in official Corvit information while allowing student guidance and course recommendations."
+  },
+  "institute": {
+    "name": "Corvit Systems",
+    "legal_name": "Corvit Systems (Pvt) Ltd.",
+    "founded": 2000,
+    "focus": "IT training and professional technical education",
+    "head_office": {
+      "address": "11A-D1, Ghalib Road, Gulberg III, Lahore, Pakistan",
+      "phone": "+92-3038888555",
+      "email": "info@corvit.com",
+      "hours": "Monday-Saturday, 09:00 AM-09:00 PM"
+    },
+    "training_modes": [
+      "Classroom",
+      "One-To-One",
+      "Customer Premise",
+      "Online / E-learning"
+    ],
+    "official_description": "Corvit provides practical IT training covering networking, cybersecurity, cloud computing, DevOps, operating systems, programming, web development, graphic design, SEO and other ICT technologies.",
+    "experience": {
+      "official_claims": [
+        "Corvit says it was founded in 2000.",
+        "Corvit says it has trained more than 150,000 students in classrooms and conducted 200+ corporate trainings on its introduction page.",
+        "Corvit's About Us page lists large numbers of certified professionals and 7,000+ corporate trainings; these figures are historical/marketing claims and should not be treated as a live enrollment count."
+      ]
+    }
+  },
+  "training_and_facilities": {
+    "features": [
+      "State-of-the-art computer labs",
+      "24x7 lab access is stated on Corvit's introduction/about pages",
+      "Fully equipped CCIE racks",
+      "Hands-on practical training",
+      "Vendor-certified instructors",
+      "Career counseling",
+      "Job placement support",
+      "Industrial internships",
+      "Latest equipment for emerging technologies",
+      "Conducive training environment"
+    ],
+    "technology_brands": [
+      "Cisco",
+      "Huawei",
+      "Juniper",
+      "Microsoft",
+      "VMware",
+      "Aruba",
+      "Red Hat",
+      "F5",
+      "Barracuda",
+      "Riverbed",
+      "Palo Alto",
+      "Bluecoat",
+      "Meraki",
+      "Fortinet"
+    ],
+    "technology_areas": [
+      "Routing & Switching",
+      "Data Centers",
+      "Virtualization",
+      "Wireless",
+      "Security",
+      "Voice",
+      "Video Conferencing",
+      "Video Surveillance",
+      "Service Provider",
+      "Operating Systems",
+      "IT Auditing",
+      "Ethical Hacking",
+      "Cyber Security",
+      "Cloud Computing",
+      "DevOps",
+      "Graphic Designing",
+      "Web Development",
+      "Python",
+      "IT Service Management",
+      "SDN",
+      "IoT"
+    ]
+  },
+  "campuses_and_locations": {
+    "systems_training": [
+      {
+        "name": "Corvit Systems Lahore",
+        "type": "head_office_and_training",
+        "address": "11A-D1, Gulberg 3, Ghalib Road, Lahore, Pakistan",
+        "phone": "+92-3038888555",
+        "status": "official_current"
+      }
+    ],
+    "regional_or_related_offices": [
+      {
+        "name": "Corvit Systems Islamabad",
+        "address": "70-W, Al-Malik Center, First Floor, Jinnah Avenue, Blue Area, Islamabad",
+        "source_note": "Listed on Corvit Consulting contact page. Do not automatically describe it as a current Corvit Systems training campus unless the user asks for related/consulting offices.",
+        "status": "verify_training_status"
+      },
+      {
+        "name": "Corvit Systems Rawalpindi",
+        "address": "2nd Floor Zarwar Center, main Murree Road, 6th Road stop, Block A, Satellite Town, Rawalpindi",
+        "source_note": "Listed on Corvit Consulting contact page. Verify whether the requested service is Systems training.",
+        "status": "verify_training_status"
+      },
+      {
+        "name": "Corvit Systems Peshawar",
+        "address": "1st Floor, Ali Tower, University Rd, adjacent to Chaaye Khana, Tehkal, Peshawar",
+        "source_note": "Listed on Corvit Consulting contact page. Verify whether the requested service is Systems training.",
+        "status": "verify_training_status"
+      },
+      {
+        "name": "Corvit Sahiwal",
+        "address": "City Star Plaza, Muhammad Pur Road, Chak No 89/6-R, Sahiwal",
+        "source_note": "The Systems contact page lists this address, but the Systems FAQ explicitly says Corvit does not have a Sahiwal branch. Treat this as a source conflict and ask the user to verify before claiming a current branch.",
+        "status": "conflicting_official_sources"
+      }
+    ],
+    "answer_rule": "Never invent a campus. For Islamabad, Rawalpindi, Peshawar or Sahiwal, distinguish Systems training campus from consulting/related office and disclose verification status."
+  },
+  "courses": {
+    "main_categories": {
+      "networking": [
+        "CCNA",
+        "CCNP",
+        "CCIE",
+        "HCIA Routing & Switching",
+        "HCIP Routing & Switching",
+        "HCIE Routing & Switching",
+        "HCNA WLAN",
+        "JNCIA",
+        "JNCIP",
+        "Wireless Networking",
+        "Data Center",
+        "Service Provider",
+        "Network Design"
+      ],
+      "cybersecurity": [
+        "Cyber Security",
+        "CEH",
+        "CHFI",
+        "Certified Cybersecurity Technician",
+        "Certified Network Defender",
+        "Certified Penetration Testing",
+        "Certified Incident Handler ECIH",
+        "Certified SOC Analyst CSA",
+        "Certified Threat Intelligence Analyst CTIA",
+        "Certified Cloud Security Engineer",
+        "Certified DevSecOps Engineer",
+        "Disaster Recovery Professional",
+        "Certified Chief Information Security Officer",
+        "CISA",
+        "CISSP",
+        "Palo Alto Firewall",
+        "Fortinet Firewall"
+      ],
+      "cloud": [
+        "Cloud Computing",
+        "AWS Certified Solutions Architect - Associate",
+        "AWS Certified Solutions Architect - Professional",
+        "Microsoft Azure",
+        "Huawei Cloud",
+        "VMware"
+      ],
+      "devops": [
+        "DevOps Training",
+        "AWS Certified DevOps Engineer",
+        "Microsoft Azure DevOps"
+      ],
+      "linux_and_systems": [
+        "MCSE",
+        "Linux Training",
+        "RHCSA",
+        "RHCE",
+        "RHCVA",
+        "MCSA",
+        "MCITP"
+      ],
+      "ai_and_programming": [
+        "Artificial Intelligence",
+        "Python",
+        "Mobile App Development"
+      ],
+      "web_and_creative": [
+        "Web Development",
+        "Graphic Designing & Video Editing",
+        "SEO & Digital Marketing",
+        "Digital Marketing"
+      ],
+      "other": [
+        "Amazon VA",
+        "Shopify",
+        "HCIA Storage",
+        "HCIA Cloud",
+        "PMP Training",
+        "ITIL",
+        "COBIT",
+        "PRINCE2",
+        "PMI-ACP",
+        "CBAP",
+        "TOGAF",
+        "ISO 27001",
+        "ISO 20000",
+        "Scrum",
+        "Six Sigma",
+        "F5 BIG-IP LTM",
+        "Riverbed Steelhead"
+      ]
+    },
+    "course_documents": [
+      {
+        "id": "ccna",
+        "name": "CCNA",
+        "category": "Networking",
+        "url": "https://corvit.com/systems/ccna-training/",
+        "keywords": [
+          "ccna",
+          "networking",
+          "cisco",
+          "200-301",
+          "network fundamentals"
+        ],
+        "summary": "CCNA covers network fundamentals, network access, IP connectivity, IP services, security fundamentals, automation and programmability. Corvit states classroom and online delivery.",
+        "outline": [
+          "OSI and TCP/IP models",
+          "Network topologies and architectures",
+          "Ethernet LANs and switches",
+          "Wireless LANs",
+          "IPv4 and IPv6 addressing",
+          "VLANs and EtherChannel",
+          "AAA and wireless security",
+          "Inter-VLAN routing",
+          "Static and dynamic routing",
+          "WAN technologies",
+          "DHCP, DNS, NAT/PAT and NTP",
+          "ACLs and VPN technologies",
+          "Python scripting",
+          "REST APIs and JSON",
+          "SDN and Cisco DNA Center"
+        ],
+        "career_roles": [
+          "Network Administrator",
+          "Network Engineer",
+          "IT Support",
+          "Network Support Engineer"
+        ],
+        "prerequisite_guidance": "Good starting point for a fresher who wants a networking career."
+      },
+      {
+        "id": "ccnp",
+        "name": "CCNP Enterprise",
+        "category": "Networking",
+        "url": "https://corvit.com/systems/ccnp-training/",
+        "keywords": [
+          "ccnp",
+          "enterprise",
+          "routing",
+          "bgp",
+          "vrf",
+          "qos",
+          "network security"
+        ],
+        "summary": "CCNP Enterprise builds on networking foundations and covers enterprise architecture, virtualization, QoS, IP services, routing, automation, security and network assurance. Corvit describes core and concentration exams.",
+        "career_roles": [
+          "Network Engineer",
+          "Senior Network Engineer",
+          "Network Architect"
+        ],
+        "prerequisite_guidance": "Best approached after a solid CCNA/networking foundation."
+      },
+      {
+        "id": "cyber-security",
+        "name": "Cyber Security",
+        "category": "Cyber Security",
+        "url": "https://corvit.com/systems/cyber-security-training/",
+        "keywords": [
+          "cyber security",
+          "cybersecurity",
+          "kali",
+          "penetration testing",
+          "security"
+        ],
+        "summary": "Corvit's cybersecurity outline covers cybersecurity fundamentals, lab setup using VMware/EVE-NG/Kali Linux, threats and attack vectors, information gathering, vulnerability assessment, Linux, social engineering, system hacking, network security and cloud security.",
+        "career_roles": [
+          "Security Analyst",
+          "SOC Analyst",
+          "Security Engineer",
+          "Penetration Tester"
+        ],
+        "prerequisite_guidance": "A fresher can start, but basic networking and Linux knowledge will make the learning path easier."
+      },
+      {
+        "id": "ceh",
+        "name": "Certified Ethical Hacking (CEH v12)",
+        "category": "Cyber Security",
+        "url": "https://corvit.com/systems/ethical-hacking-training/",
+        "keywords": [
+          "ceh",
+          "ethical hacking",
+          "ec-council",
+          "penetration testing",
+          "hacking"
+        ],
+        "summary": "Corvit describes CEHv12 training covering ethical hacking fundamentals, reconnaissance, scanning, enumeration, vulnerability analysis, system hacking, malware threats, sniffing, social engineering, wireless security, mobile platforms, IoT/OT, cloud and cryptography. Corvit states it is an EC-Council training partner.",
+        "career_roles": [
+          "Ethical Hacker",
+          "Penetration Tester",
+          "Security Analyst",
+          "Security Engineer"
+        ],
+        "prerequisite_guidance": "Networking fundamentals and Linux are strongly helpful before advanced ethical hacking."
+      },
+      {
+        "id": "cloud-computing",
+        "name": "Cloud Computing",
+        "category": "Cloud",
+        "url": "https://corvit.com/systems/cloud-computing-training/",
+        "keywords": [
+          "cloud",
+          "aws",
+          "azure",
+          "gcp",
+          "terraform",
+          "vpc",
+          "iam"
+        ],
+        "summary": "Corvit's cloud outline covers Windows Server/Active Directory, storage, DNS/DHCP, load balancing, failover, disaster recovery, VPN, Hyper-V, AWS, Azure, GCP and Terraform.",
+        "career_roles": [
+          "Cloud Administrator",
+          "Cloud Engineer",
+          "Cloud Analyst",
+          "Network Administrator",
+          "IT Support"
+        ],
+        "prerequisite_guidance": "Networking and Linux fundamentals are useful; AWS/Azure/GCP should be selected according to career goal."
+      },
+      {
+        "id": "devops",
+        "name": "DevOps",
+        "category": "DevOps",
+        "url": "https://corvit.com/systems/devops-training/",
+        "keywords": [
+          "devops",
+          "docker",
+          "kubernetes",
+          "jenkins",
+          "terraform",
+          "ansible",
+          "aws",
+          "azure",
+          "ci/cd"
+        ],
+        "summary": "Corvit's DevOps course covers Linux, networking/security, AWS, Azure, Bash, PowerShell, Python, YAML, Git, Jenkins, Azure DevOps, Docker, Kubernetes, Helm, Terraform, ARM templates, CloudFormation, Ansible, Prometheus, Grafana, Datadog, ELK and web servers.",
+        "career_roles": [
+          "DevOps Engineer",
+          "Cloud/DevOps Engineer",
+          "Site Reliability Engineer",
+          "Automation Engineer"
+        ],
+        "prerequisite_guidance": "Best after basic Linux, networking and programming/scripting foundations."
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "category": "Programming",
+        "url": "https://corvit.com/systems/python-training/",
+        "keywords": [
+          "python",
+          "programming",
+          "backend",
+          "django",
+          "react",
+          "data science",
+          "ai"
+        ],
+        "summary": "Corvit's Python page covers problem solving, algorithms, coding, decision/repetition statements, OOP, JavaScript, jQuery, Bootstrap, Python databases, an e-commerce app, React and Python backend topics.",
+        "career_roles": [
+          "Python Developer",
+          "Backend Developer",
+          "Automation Engineer",
+          "Data/ML pathway"
+        ],
+        "prerequisite_guidance": "Strong beginner-friendly starting point for students interested in programming, AI, automation or backend development."
+      },
+      {
+        "id": "artificial-intelligence",
+        "name": "Artificial Intelligence",
+        "category": "AI",
+        "url": "https://corvit.com/systems/artificial-intelligence-training/",
+        "keywords": [
+          "ai",
+          "artificial intelligence",
+          "machine learning",
+          "ml",
+          "ai engineering",
+          "reinforcement learning"
+        ],
+        "summary": "Corvit describes AI training around AI, machine learning, AI engineering, intelligent applications, predictive analysis, reinforcement learning, cognitive computing and quantum computing.",
+        "career_roles": [
+          "AI Engineer",
+          "Machine Learning Engineer",
+          "Data/AI Practitioner"
+        ],
+        "prerequisite_guidance": "For a fresher, learn Python and basic mathematics/statistics before moving deeply into ML/DL."
+      },
+      {
+        "id": "web-development",
+        "name": "Web Development",
+        "category": "Web Development",
+        "url": "https://corvit.com/systems/web-development-training/",
+        "keywords": [
+          "web development",
+          "html",
+          "css",
+          "javascript",
+          "frontend",
+          "backend",
+          "full stack"
+        ],
+        "summary": "Corvit offers web development training and states the program is intended to improve career prospects and practical web-development skills.",
+        "career_roles": [
+          "Frontend Developer",
+          "Backend Developer",
+          "Full Stack Developer",
+          "Web Developer"
+        ],
+        "prerequisite_guidance": "Good choice for a fresher who wants visible project work and freelance/web-development opportunities."
+      },
+      {
+        "id": "more-courses",
+        "name": "More Courses",
+        "category": "Other",
+        "url": "https://corvit.com/systems/more-courses/",
+        "keywords": [
+          "amazon va",
+          "shopify",
+          "hcia storage",
+          "hcia cloud",
+          "digital marketing",
+          "artificial intelligence",
+          "python",
+          "pmp"
+        ],
+        "summary": "Corvit's More Courses page lists Amazon VA, Shopify, HCIA Storage, HCIA Cloud, Digital Marketing, Artificial Intelligence, Python and PMP Training."
+      }
+    ]
+  },
+  "paid_training": {
+    "definition": "Paid training means regular Corvit training outside a government-funded NAVTTC seat unless a specific offer says otherwise.",
+    "fee_source": "https://corvit.com/systems/lahore-fee/",
+    "fee_image": "https://corvit.com/systems/wp-content/uploads/2026/07/Lahore-Fee-2026.png",
+    "rule": "Do not invent or hard-code a fee if the fee image/page has changed. Tell the user the current official fee structure is published on the Lahore Fee page and should be verified with Corvit.",
+    "payment_policy": {
+      "on_campus": "FAQ says campus fees are accepted in cash or cheque.",
+      "online": "FAQ says online students can transfer via bank or PayPal.",
+      "normal_payment": "FAQ says full payment is normally required at the beginning; certain deserving students may be allowed two equal installments.",
+      "corporate": "FAQ says corporate training is charged 100% in advance."
+    }
+  },
+  "navttc": {
+    "program_type": "Government-funded training through NAVTTC",
+    "url": "https://corvit.com/systems/navttc-free-courses-lahore/",
+    "free_for_eligible_students": true,
+    "funding": "Corvit states NAVTTC programs are fully funded by the Government of Pakistan for eligible students.",
+    "popular_programs": [
+      "Full Stack Web Development",
+      "Cyber Security",
+      "Artificial Intelligence",
+      "Graphic Designing and Video Editing",
+      "Digital Marketing and SEO",
+      "Cloud Computing AWS",
+      "DevOps"
+    ],
+    "admission_process": [
+      "Check available programs",
+      "Check eligibility",
+      "Complete NAVTTC registration online or at campus",
+      "Submit required documents",
+      "Attend any required interview/test",
+      "Enroll if selected"
+    ],
+    "eligibility_note": "Corvit's NAVTTC page says Pakistani students who meet NAVTTC education and age requirements can apply and that most courses require at least Intermediate. Exact eligibility is program/batch dependent.",
+    "seats_note": "Corvit says seats are limited and in high demand. Individual NAVTTC outlines may specify class size.",
+    "certificate": "Corvit states NAVTTC programs include official NAVTTC certification on completion.",
+    "answer_rule": "Never tell a user that every Corvit course is free. Explain the difference between regular/paid training and NAVTTC-funded programs."
+  },
+  "pseb": {
+    "url": "https://corvit.com/systems/pseb-trainings/",
+    "availability_note": "Corvit's PSEB page says these trainings are offered on campus and eligibility criteria apply.",
+    "programs": [
+      "Certified Ethical Hacking",
+      "Computer Hacking & Forensic Investigator",
+      "Cisco Certified Network Associate",
+      "Certified Associate in Python Programming",
+      "AWS Certified Solutions Architect - Associate",
+      "AWS Certified Solutions Architect - Professional",
+      "Designing and Implementing a Data Science Solution on Azure"
+    ]
+  },
+  "current_schedule": {
+    "source_page": "https://corvit.com/systems/lahore-schedule/",
+    "source_image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png",
+    "verified_for": "September 2026",
+    "entries": [
+      {
+        "course": "CCNA 83 with FREE LINUX",
+        "mode": "Online / In Campus",
+        "trainer": "Mr. Tahir Ali",
+        "days": "Daily",
+        "start": "2026-09-14",
+        "time": "11:00am to 12:30pm"
+      },
+      {
+        "course": "CCNA 84 with FREE LINUX",
+        "mode": "Online",
+        "trainer": "Mr. Haroon Malik",
+        "days": "Monday, Wednesday, Friday",
+        "start": "2026-09-21",
+        "time": "7:30pm to 8:30pm"
+      },
+      {
+        "course": "Fortinet Firewall (NSE-4) + PaloAlto Firewall",
+        "mode": "Online",
+        "trainer": "Mr. Ahsan Malik",
+        "days": "Saturday / Sunday",
+        "start": "2026-09-05",
+        "time": "9:30pm onward"
+      },
+      {
+        "course": "DevOps & Modern Deployment",
+        "mode": "Online",
+        "trainer": "Mr. Subhan Malik",
+        "days": "Saturday / Sunday",
+        "start": "2026-09-12",
+        "time": "7:30pm to 9:00pm"
+      },
+      {
+        "course": "AWS Solution Architect Associate",
+        "mode": "Online",
+        "trainer": "Mr. Subhan Malik",
+        "days": "Saturday / Sunday",
+        "start": "2026-09-12",
+        "time": "6:00pm to 7:30pm"
+      },
+      {
+        "course": "CEH (Certified Ethical Hacking)",
+        "mode": "Online / In Campus",
+        "trainer": "Mr. Ahsan Malik",
+        "days": "Monday, Wednesday, Friday",
+        "start": "2026-09-02",
+        "time": "8:45pm to 10:00pm"
+      },
+      {
+        "course": "Artificial Intelligence (ML / DL)",
+        "mode": "Online / In Campus",
+        "trainer": "Mr. M. Kamran Khan",
+        "days": "Saturday / Sunday",
+        "start": "2026-09-19",
+        "time": "6:00pm to 8:00pm"
+      },
+      {
+        "course": "Python",
+        "mode": "Online / In Campus",
+        "trainer": "Mr. Syed Qaswar",
+        "days": "Saturday / Sunday",
+        "start": "2026-09-19",
+        "time": "6:00pm to 7:00pm"
+      },
+      {
+        "course": "Web Development (MERN Stack)",
+        "mode": "Online / In Campus",
+        "trainer": "Mr. Syed Qaswar",
+        "days": "Saturday / Sunday",
+        "start": "2026-09-19",
+        "time": "2:00pm to 4:00pm"
+      },
+      {
+        "course": "MCSE 2025 with FREE Azure Cloud",
+        "mode": "Online / In Campus",
+        "trainer": "Mr. Asif Shafiq",
+        "days": "Monday, Wednesday, Friday",
+        "start": "2026-09-02",
+        "time": "6:30pm to 7:30pm"
+      },
+      {
+        "course": "SEO 57 (Search Engine Optimization)",
+        "mode": "Online / In Campus",
+        "trainer": "Mr. Muhammad Talha",
+        "days": "Saturday / Sunday",
+        "start": "2026-09-05",
+        "time": "6:00pm to 7:00pm"
+      }
+    ],
+    "important_rule": "This schedule is dynamic. When a user asks for timetable, prefer current_schedule.entries and source_image over older homepage offers."
+  },
+  "admission_and_student_guidance": {
+    "official_admission_page": "https://corvit.com/systems/contact-us/admission/",
+    "general_admission_rule": "Use the official inquiry/admission page or contact Corvit for current batch availability, eligibility and enrollment.",
+    "certificate": "Corvit's FAQ says a training completion certificate is issued at the end of each course.",
+    "online_students": "Corvit says students living away from campus can use online training.",
+    "course_duration": "Corvit's FAQ says course duration varies by course; do not invent a universal duration for regular paid courses.",
+    "beginner_guidance": {
+      "rule": "Do not assume every beginner should start with an advanced certification.",
+      "paths": [
+        {
+          "profile": "Complete beginner interested in programming",
+          "recommended_sequence": [
+            "Python",
+            "Web Development or AI",
+            "Projects",
+            "Career specialization"
+          ],
+          "why": "Python provides a practical programming foundation and can lead toward web, automation, data or AI."
+        },
+        {
+          "profile": "Beginner interested in networking",
+          "recommended_sequence": [
+            "CCNA",
+            "Hands-on labs",
+            "CCNP",
+            "Specialization"
+          ],
+          "why": "CCNA establishes networking fundamentals before advanced enterprise networking."
+        },
+        {
+          "profile": "Beginner interested in cybersecurity",
+          "recommended_sequence": [
+            "Networking fundamentals/CCNA",
+            "Linux basics",
+            "Cyber Security",
+            "CEH or a specialized security track"
+          ],
+          "why": "Security work becomes easier when networking and Linux fundamentals are strong."
+        },
+        {
+          "profile": "Beginner interested in cloud",
+          "recommended_sequence": [
+            "Networking + Linux basics",
+            "AWS/Azure/Cloud Computing",
+            "Hands-on projects",
+            "Cloud/DevOps specialization"
+          ],
+          "why": "Cloud infrastructure depends heavily on networking, operating systems, security and automation."
+        },
+        {
+          "profile": "Beginner interested in AI/ML",
+          "recommended_sequence": [
+            "Python",
+            "Math/statistics basics",
+            "AI/ML",
+            "Deep Learning/projects",
+            "Deployment/MLOps"
+          ],
+          "why": "Programming and mathematical foundations make AI training more productive."
+        }
+      ]
+    },
+    "course_recommendation_questions": [
+      "What is your current education/background?",
+      "Are you a complete beginner or do you already know networking/programming/Linux?",
+      "Which area interests you most: networking, cybersecurity, cloud, AI, programming, web development or design?",
+      "Do you want a certification-focused path, job skills, freelancing, or a long-term engineering path?",
+      "Do you need online or on-campus training?",
+      "Do you need a free NAVTTC-funded option?"
+    ]
+  },
+  "career_paths": [
+    {
+      "career": "Network Engineer",
+      "courses": [
+        "CCNA",
+        "CCNP",
+        "CCIE / specialization"
+      ],
+      "keywords": [
+        "network engineer",
+        "networking career",
+        "router",
+        "switch"
+      ]
+    },
+    {
+      "career": "Cybersecurity Professional",
+      "courses": [
+        "CCNA/network fundamentals",
+        "Cyber Security",
+        "CEH",
+        "specialized security"
+      ],
+      "keywords": [
+        "cybersecurity career",
+        "soc",
+        "penetration tester",
+        "ethical hacker"
+      ]
+    },
+    {
+      "career": "Cloud Engineer",
+      "courses": [
+        "Networking/Linux",
+        "Cloud Computing",
+        "AWS or Azure",
+        "DevOps"
+      ],
+      "keywords": [
+        "cloud engineer",
+        "aws career",
+        "azure career"
+      ]
+    },
+    {
+      "career": "DevOps Engineer",
+      "courses": [
+        "Linux",
+        "Python/Bash",
+        "Cloud",
+        "DevOps",
+        "Docker/Kubernetes/Terraform"
+      ],
+      "keywords": [
+        "devops career",
+        "docker",
+        "kubernetes",
+        "ci/cd"
+      ]
+    },
+    {
+      "career": "AI / ML Engineer",
+      "courses": [
+        "Python",
+        "AI/ML",
+        "Deep Learning",
+        "Projects",
+        "Deployment/MLOps"
+      ],
+      "keywords": [
+        "ai engineer",
+        "machine learning",
+        "ml engineer",
+        "deep learning"
+      ]
+    },
+    {
+      "career": "Python / Software Developer",
+      "courses": [
+        "Python",
+        "Web Development",
+        "Backend"
+      ],
+      "keywords": [
+        "python developer",
+        "software developer",
+        "backend developer"
+      ]
+    },
+    {
+      "career": "Web Developer",
+      "courses": [
+        "Web Development",
+        "MERN/full-stack pathway"
+      ],
+      "keywords": [
+        "web developer",
+        "frontend",
+        "backend",
+        "full stack"
+      ]
+    },
+    {
+      "career": "Graphic Designer / Video Editor",
+      "courses": [
+        "Graphic Designing & Video Editing"
+      ],
+      "keywords": [
+        "graphic designer",
+        "video editor",
+        "design career"
+      ]
+    },
+    {
+      "career": "Digital Marketer / SEO Specialist",
+      "courses": [
+        "SEO",
+        "Digital Marketing"
+      ],
+      "keywords": [
+        "seo",
+        "digital marketing",
+        "marketing career"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "classroom_mode",
+      "url": "https://corvit.com/systems/wp-content/uploads/2023/03/class-room-mode.png",
+      "category": "training_mode",
+      "alt": "Corvit classroom training mode",
+      "source_page": "https://corvit.com/systems/",
+      "official": true
+    },
+    {
+      "id": "network_lab",
+      "url": "https://corvit.com/systems/wp-content/uploads/2023/03/ghani-111-560x300-1.jpg",
+      "category": "labs",
+      "alt": "Corvit computer and networking laboratory with Cisco equipment",
+      "source_page": "https://corvit.com/systems/",
+      "official": true
+    },
+    {
+      "id": "classroom",
+      "url": "https://corvit.com/systems/wp-content/uploads/2023/03/17310979_1313175062105685_5685254498018129633_o-560x300-1.jpg",
+      "category": "classrooms",
+      "alt": "Corvit training classroom",
+      "source_page": "https://corvit.com/systems/",
+      "official": true
+    },
+    {
+      "id": "technical_lab",
+      "url": "https://corvit.com/systems/wp-content/uploads/2023/04/photo_2020-07-28_20-01-38.jpg",
+      "category": "labs",
+      "alt": "Technical computer lab/workstation image used on Corvit website",
+      "source_page": "https://corvit.com/systems/lahore-fee/",
+      "official": true,
+      "note": "Official Corvit-hosted image; do not claim the photo proves a specific current lab inventory."
+    },
+    {
+      "id": "navttc_gallery_1",
+      "url": "https://corvit.com/systems/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-26-at-11.35.35-4-600x400.jpeg",
+      "category": "navttc_gallery",
+      "alt": "Corvit NAVTTC batch group photo",
+      "source_page": "https://corvit.com/systems/navttc-batch-4-gallery/",
+      "official": true
+    },
+    {
+      "id": "schedule_sep_2026",
+      "url": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png",
+      "category": "schedule",
+      "alt": "Corvit Lahore September 2026 class schedule",
+      "source_page": "https://corvit.com/systems/lahore-schedule/",
+      "official": true
+    },
+    {
+      "id": "fee_2026",
+      "url": "https://corvit.com/systems/wp-content/uploads/2026/07/Lahore-Fee-2026.png",
+      "category": "fees",
+      "alt": "Corvit Lahore 2026 fee structure",
+      "source_page": "https://corvit.com/systems/lahore-fee/",
+      "official": true
+    }
+  ],
+  "official_links": {
+    "home": "https://corvit.com/systems/",
+    "about": "https://corvit.com/systems/about-us/",
+    "introduction": "https://corvit.com/systems/about-us/introduction/",
+    "advantage": "https://corvit.com/systems/about-us/our-advantage/",
+    "management_team": "https://corvit.com/systems/our-team/management-team/",
+    "ccna": "https://corvit.com/systems/ccna-training/",
+    "ccnp": "https://corvit.com/systems/ccnp-training/",
+    "artificial_intelligence": "https://corvit.com/systems/artificial-intelligence-training/",
+    "cyber_security": "https://corvit.com/systems/cyber-security-training/",
+    "ethical_hacking": "https://corvit.com/systems/ethical-hacking-training/",
+    "cloud": "https://corvit.com/systems/cloud-computing-training/",
+    "devops": "https://corvit.com/systems/devops-training/",
+    "python": "https://corvit.com/systems/python-training/",
+    "web_development": "https://corvit.com/systems/web-development-training/",
+    "more_courses": "https://corvit.com/systems/more-courses/",
+    "online_training": "https://corvit.com/systems/online-it-training-institute/",
+    "best_it_training": "https://corvit.com/systems/best-it-training/",
+    "lahore_schedule": "https://corvit.com/systems/lahore-schedule/",
+    "lahore_fee": "https://corvit.com/systems/lahore-fee/",
+    "navttc": "https://corvit.com/systems/navttc-free-courses-lahore/",
+    "pseb": "https://corvit.com/systems/pseb-trainings/",
+    "faqs": "https://corvit.com/systems/faqs/",
+    "contact": "https://corvit.com/systems/contact-us/",
+    "admission": "https://corvit.com/systems/contact-us/admission/",
+    "navttc_gallery": "https://corvit.com/systems/navttc-batch-4-gallery/",
+    "navttc_summer_gallery": "https://corvit.com/systems/navttc-summer-of-code-batch-2/"
+  },
+  "faq": [
+    {
+      "q": "What are Corvit's opening hours?",
+      "keywords": [
+        "opening hours",
+        "timings",
+        "when open",
+        "office timing"
+      ],
+      "answer": "The official Systems FAQ lists Monday-Saturday, 09:00 AM-09:00 PM.",
+      "source": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "q": "Does Corvit provide online training?",
+      "keywords": [
+        "online",
+        "remote",
+        "online classes"
+      ],
+      "answer": "Yes. Corvit says it provides online training, including for students living away from campus.",
+      "source": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "q": "Does Corvit issue certificates?",
+      "keywords": [
+        "certificate",
+        "completion certificate"
+      ],
+      "answer": "Yes. Corvit's FAQ says a training completion certificate is issued at the end of each course.",
+      "source": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "q": "How are regular course fees paid?",
+      "keywords": [
+        "fee payment",
+        "pay fee",
+        "payment"
+      ],
+      "answer": "The FAQ says on-campus students can pay by cash or cheque; online students can transfer via bank or PayPal. Full payment is normally required at the beginning, with some deserving students allowed two equal installments.",
+      "source": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "q": "Are NAVTTC courses free?",
+      "keywords": [
+        "navttc free",
+        "free course",
+        "government free"
+      ],
+      "answer": "Corvit states its NAVTTC programs are fully funded by the Government of Pakistan for eligible students. This does not mean every Corvit course is free.",
+      "source": "https://corvit.com/systems/navttc-free-courses-lahore/"
+    },
+    {
+      "q": "Does Corvit have a Sahiwal branch?",
+      "keywords": [
+        "sahiwal",
+        "sahiwal branch"
+      ],
+      "answer": "There is a conflict in Corvit's official Systems pages: the FAQ says there is no Sahiwal branch, while the contact page lists a 'Corvit Sahiwal' address. The chatbot should not state a definite current branch without verification.",
+      "source": "https://corvit.com/systems/faqs/"
+    }
+  ],
+  "query_intents": {
+    "timetable": [
+      "timetable",
+      "schedule",
+      "class timing",
+      "class timings",
+      "batch timing",
+      "when does",
+      "start date",
+      "days"
+    ],
+    "courses": [
+      "course",
+      "courses",
+      "training",
+      "program",
+      "what do you offer"
+    ],
+    "fees": [
+      "fee",
+      "fees",
+      "price",
+      "cost",
+      "tuition",
+      "paid",
+      "charges"
+    ],
+    "free_navttc": [
+      "navttc",
+      "free course",
+      "government course",
+      "free training"
+    ],
+    "infrastructure": [
+      "infrastructure",
+      "lab",
+      "labs",
+      "classroom",
+      "equipment",
+      "facilities",
+      "racks"
+    ],
+    "instructors": [
+      "instructor",
+      "trainer",
+      "teacher",
+      "faculty",
+      "who teaches"
+    ],
+    "campuses": [
+      "campus",
+      "branch",
+      "location",
+      "lahore",
+      "rawalpindi",
+      "islamabad",
+      "peshawar",
+      "sahiwal"
+    ],
+    "images": [
+      "image",
+      "images",
+      "photo",
+      "photos",
+      "picture",
+      "pictures",
+      "show me lab",
+      "show campus",
+      "gallery"
+    ],
+    "student_guidance": [
+      "which course",
+      "best course",
+      "recommend",
+      "recommendation",
+      "what should i learn",
+      "fresher",
+      "beginner",
+      "career"
+    ],
+    "career": [
+      "job",
+      "career",
+      "profession",
+      "role",
+      "what can i become"
+    ],
+    "admission": [
+      "admission",
+      "enroll",
+      "registration",
+      "apply",
+      "documents",
+      "eligibility"
+    ],
+    "about": [
+      "about corvit",
+      "history",
+      "founded",
+      "mission",
+      "vision",
+      "experience"
+    ],
+    "contact": [
+      "contact",
+      "phone",
+      "email",
+      "address",
+      "whatsapp"
+    ],
+    "certification": [
+      "certificate",
+      "certification",
+      "certified"
+    ]
+  },
+  "chatbot_rules": {
+    "grounding_priority": [
+      "1. Match exact/near-exact FAQ, schedule, fee, course or intent record in dataset.",
+      "2. Retrieve the most relevant knowledge_documents/course records.",
+      "3. Use GPT-OSS-120B only to synthesize an answer from retrieved Corvit context.",
+      "4. If model/API fails, answer from deterministic dataset templates.",
+      "5. If the dataset does not contain the fact, say that it is not verified and provide the relevant official Corvit page/contact."
+    ],
+    "no_hallucination": [
+      "Never invent fees.",
+      "Never invent seats for regular paid courses.",
+      "Never invent a campus.",
+      "Never turn a related/consulting office into a Systems training campus.",
+      "Never claim a schedule is current without checking current_schedule.",
+      "Never claim an image proves a current facility inventory.",
+      "Never present general career guidance as an official Corvit promise."
+    ],
+    "image_behavior": {
+      "show_images_when": [
+        "user explicitly asks for images/photos/pictures",
+        "user asks to see labs/classrooms/campus/gallery",
+        "a course or facility response has a highly relevant official image"
+      ],
+      "max_images_per_answer": 3,
+      "categories": [
+        "labs",
+        "classrooms",
+        "navttc_gallery",
+        "schedule",
+        "fees",
+        "training_mode"
+      ]
+    },
+    "recommendation_behavior": {
+      "ask_profile_questions_if_needed": true,
+      "use_profile": [
+        "background",
+        "interest",
+        "experience",
+        "career_goal",
+        "delivery_mode",
+        "free_vs_paid"
+      ],
+      "never_say_one_course_is_universally_best": true
+    }
+  },
+  "fallback": {
+    "knowledge_fallback": "I could not verify that information in the Corvit knowledge base. Please check the official Corvit page or contact Corvit Systems at +92-3038888555.",
+    "model_fallback": "The AI service is temporarily unavailable, so I will answer from the verified Corvit knowledge base.",
+    "unknown_image_fallback": "I could not find a verified official Corvit image for that request.",
+    "dynamic_data_fallback": "This information is dynamic. Please use the official Corvit source linked with the answer to verify the latest schedule, fee, seat availability or offer."
+  },
+  "source_index": [
+    {
+      "title": "Home",
+      "url": "https://corvit.com/systems/",
+      "topics": [
+        "offers",
+        "training modes",
+        "about",
+        "contact",
+        "course areas"
+      ]
+    },
+    {
+      "title": "About Us",
+      "url": "https://corvit.com/systems/about-us/",
+      "topics": [
+        "experience",
+        "certified professionals",
+        "labs",
+        "career counseling",
+        "job placement",
+        "internships"
+      ]
+    },
+    {
+      "title": "Introduction",
+      "url": "https://corvit.com/systems/about-us/introduction/",
+      "topics": [
+        "technologies",
+        "trainers",
+        "courses",
+        "experience",
+        "value proposition"
+      ]
+    },
+    {
+      "title": "Our Advantage",
+      "url": "https://corvit.com/systems/about-us/our-advantage/",
+      "topics": [
+        "feedback",
+        "expert trainers",
+        "course design",
+        "accreditations",
+        "availability"
+      ]
+    },
+    {
+      "title": "Management Team",
+      "url": "https://corvit.com/systems/our-team/management-team/",
+      "topics": [
+        "management",
+        "CEO",
+        "chairman",
+        "information desk"
+      ]
+    },
+    {
+      "title": "CCNA",
+      "url": "https://corvit.com/systems/ccna-training/",
+      "topics": [
+        "CCNA",
+        "networking",
+        "course outline"
+      ]
+    },
+    {
+      "title": "CCNP",
+      "url": "https://corvit.com/systems/ccnp-training/",
+      "topics": [
+        "CCNP",
+        "enterprise networking",
+        "course outline"
+      ]
+    },
+    {
+      "title": "Cyber Security",
+      "url": "https://corvit.com/systems/cyber-security-training/",
+      "topics": [
+        "cybersecurity",
+        "penetration testing",
+        "Kali",
+        "security"
+      ]
+    },
+    {
+      "title": "Ethical Hacking",
+      "url": "https://corvit.com/systems/ethical-hacking-training/",
+      "topics": [
+        "CEH",
+        "ethical hacking",
+        "EC-Council"
+      ]
+    },
+    {
+      "title": "Cloud Computing",
+      "url": "https://corvit.com/systems/cloud-computing-training/",
+      "topics": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "cloud"
+      ]
+    },
+    {
+      "title": "DevOps",
+      "url": "https://corvit.com/systems/devops-training/",
+      "topics": [
+        "DevOps",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Jenkins"
+      ]
+    },
+    {
+      "title": "Python",
+      "url": "https://corvit.com/systems/python-training/",
+      "topics": [
+        "Python",
+        "programming",
+        "backend"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence",
+      "url": "https://corvit.com/systems/artificial-intelligence-training/",
+      "topics": [
+        "AI",
+        "ML",
+        "AI engineering"
+      ]
+    },
+    {
+      "title": "Web Development",
+      "url": "https://corvit.com/systems/web-development-training/",
+      "topics": [
+        "web development",
+        "career"
+      ]
+    },
+    {
+      "title": "More Courses",
+      "url": "https://corvit.com/systems/more-courses/",
+      "topics": [
+        "Amazon VA",
+        "Shopify",
+        "PMP",
+        "AI",
+        "Python"
+      ]
+    },
+    {
+      "title": "Lahore Schedule",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "topics": [
+        "timetable",
+        "batch schedule"
+      ]
+    },
+    {
+      "title": "Lahore Fee",
+      "url": "https://corvit.com/systems/lahore-fee/",
+      "topics": [
+        "paid fees"
+      ]
+    },
+    {
+      "title": "NAVTTC Free Courses",
+      "url": "https://corvit.com/systems/navttc-free-courses-lahore/",
+      "topics": [
+        "NAVTTC",
+        "free",
+        "eligibility",
+        "admission",
+        "certificate"
+      ]
+    },
+    {
+      "title": "PSEB Trainings",
+      "url": "https://corvit.com/systems/pseb-trainings/",
+      "topics": [
+        "PSEB",
+        "on-campus",
+        "certifications"
+      ]
+    },
+    {
+      "title": "FAQs",
+      "url": "https://corvit.com/systems/faqs/",
+      "topics": [
+        "hours",
+        "payments",
+        "certificates",
+        "online",
+        "Sahiwal"
+      ]
+    },
+    {
+      "title": "Contact",
+      "url": "https://corvit.com/systems/contact-us/",
+      "topics": [
+        "address",
+        "phone",
+        "email",
+        "Sahiwal contact"
+      ]
+    },
+    {
+      "title": "Admission",
+      "url": "https://corvit.com/systems/contact-us/admission/",
+      "topics": [
+        "inquiry",
+        "admission"
+      ]
+    },
+    {
+      "title": "NAVTTC Batch 4 Gallery",
+      "url": "https://corvit.com/systems/navttc-batch-4-gallery/",
+      "topics": [
+        "images",
+        "gallery",
+        "NAVTTC"
+      ]
+    }
+  ],
+  "knowledge_documents": [
+    {
+      "id": "ccna",
+      "type": "course",
+      "title": "CCNA",
+      "category": "Networking",
+      "keywords": [
+        "ccna",
+        "networking",
+        "cisco",
+        "200-301",
+        "network fundamentals"
+      ],
+      "content": "CCNA covers network fundamentals, network access, IP connectivity, IP services, security fundamentals, automation and programmability. Corvit states classroom and online delivery.",
+      "career_roles": [
+        "Network Administrator",
+        "Network Engineer",
+        "IT Support",
+        "Network Support Engineer"
+      ],
+      "url": "https://corvit.com/systems/ccna-training/"
+    },
+    {
+      "id": "ccnp",
+      "type": "course",
+      "title": "CCNP Enterprise",
+      "category": "Networking",
+      "keywords": [
+        "ccnp",
+        "enterprise",
+        "routing",
+        "bgp",
+        "vrf",
+        "qos",
+        "network security"
+      ],
+      "content": "CCNP Enterprise builds on networking foundations and covers enterprise architecture, virtualization, QoS, IP services, routing, automation, security and network assurance. Corvit describes core and concentration exams.",
+      "career_roles": [
+        "Network Engineer",
+        "Senior Network Engineer",
+        "Network Architect"
+      ],
+      "url": "https://corvit.com/systems/ccnp-training/"
+    },
+    {
+      "id": "cyber-security",
+      "type": "course",
+      "title": "Cyber Security",
+      "category": "Cyber Security",
+      "keywords": [
+        "cyber security",
+        "cybersecurity",
+        "kali",
+        "penetration testing",
+        "security"
+      ],
+      "content": "Corvit's cybersecurity outline covers cybersecurity fundamentals, lab setup using VMware/EVE-NG/Kali Linux, threats and attack vectors, information gathering, vulnerability assessment, Linux, social engineering, system hacking, network security and cloud security.",
+      "career_roles": [
+        "Security Analyst",
+        "SOC Analyst",
+        "Security Engineer",
+        "Penetration Tester"
+      ],
+      "url": "https://corvit.com/systems/cyber-security-training/"
+    },
+    {
+      "id": "ceh",
+      "type": "course",
+      "title": "Certified Ethical Hacking (CEH v12)",
+      "category": "Cyber Security",
+      "keywords": [
+        "ceh",
+        "ethical hacking",
+        "ec-council",
+        "penetration testing",
+        "hacking"
+      ],
+      "content": "Corvit describes CEHv12 training covering ethical hacking fundamentals, reconnaissance, scanning, enumeration, vulnerability analysis, system hacking, malware threats, sniffing, social engineering, wireless security, mobile platforms, IoT/OT, cloud and cryptography. Corvit states it is an EC-Council training partner.",
+      "career_roles": [
+        "Ethical Hacker",
+        "Penetration Tester",
+        "Security Analyst",
+        "Security Engineer"
+      ],
+      "url": "https://corvit.com/systems/ethical-hacking-training/"
+    },
+    {
+      "id": "cloud-computing",
+      "type": "course",
+      "title": "Cloud Computing",
+      "category": "Cloud",
+      "keywords": [
+        "cloud",
+        "aws",
+        "azure",
+        "gcp",
+        "terraform",
+        "vpc",
+        "iam"
+      ],
+      "content": "Corvit's cloud outline covers Windows Server/Active Directory, storage, DNS/DHCP, load balancing, failover, disaster recovery, VPN, Hyper-V, AWS, Azure, GCP and Terraform.",
+      "career_roles": [
+        "Cloud Administrator",
+        "Cloud Engineer",
+        "Cloud Analyst",
+        "Network Administrator",
+        "IT Support"
+      ],
+      "url": "https://corvit.com/systems/cloud-computing-training/"
+    },
+    {
+      "id": "devops",
+      "type": "course",
+      "title": "DevOps",
+      "category": "DevOps",
+      "keywords": [
+        "devops",
+        "docker",
+        "kubernetes",
+        "jenkins",
+        "terraform",
+        "ansible",
+        "aws",
+        "azure",
+        "ci/cd"
+      ],
+      "content": "Corvit's DevOps course covers Linux, networking/security, AWS, Azure, Bash, PowerShell, Python, YAML, Git, Jenkins, Azure DevOps, Docker, Kubernetes, Helm, Terraform, ARM templates, CloudFormation, Ansible, Prometheus, Grafana, Datadog, ELK and web servers.",
+      "career_roles": [
+        "DevOps Engineer",
+        "Cloud/DevOps Engineer",
+        "Site Reliability Engineer",
+        "Automation Engineer"
+      ],
+      "url": "https://corvit.com/systems/devops-training/"
+    },
+    {
+      "id": "python",
+      "type": "course",
+      "title": "Python",
+      "category": "Programming",
+      "keywords": [
+        "python",
+        "programming",
+        "backend",
+        "django",
+        "react",
+        "data science",
+        "ai"
+      ],
+      "content": "Corvit's Python page covers problem solving, algorithms, coding, decision/repetition statements, OOP, JavaScript, jQuery, Bootstrap, Python databases, an e-commerce app, React and Python backend topics.",
+      "career_roles": [
+        "Python Developer",
+        "Backend Developer",
+        "Automation Engineer",
+        "Data/ML pathway"
+      ],
+      "url": "https://corvit.com/systems/python-training/"
+    },
+    {
+      "id": "artificial-intelligence",
+      "type": "course",
+      "title": "Artificial Intelligence",
+      "category": "AI",
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "machine learning",
+        "ml",
+        "ai engineering",
+        "reinforcement learning"
+      ],
+      "content": "Corvit describes AI training around AI, machine learning, AI engineering, intelligent applications, predictive analysis, reinforcement learning, cognitive computing and quantum computing.",
+      "career_roles": [
+        "AI Engineer",
+        "Machine Learning Engineer",
+        "Data/AI Practitioner"
+      ],
+      "url": "https://corvit.com/systems/artificial-intelligence-training/"
+    },
+    {
+      "id": "web-development",
+      "type": "course",
+      "title": "Web Development",
+      "category": "Web Development",
+      "keywords": [
+        "web development",
+        "html",
+        "css",
+        "javascript",
+        "frontend",
+        "backend",
+        "full stack"
+      ],
+      "content": "Corvit offers web development training and states the program is intended to improve career prospects and practical web-development skills.",
+      "career_roles": [
+        "Frontend Developer",
+        "Backend Developer",
+        "Full Stack Developer",
+        "Web Developer"
+      ],
+      "url": "https://corvit.com/systems/web-development-training/"
+    },
+    {
+      "id": "more-courses",
+      "type": "course",
+      "title": "More Courses",
+      "category": "Other",
+      "keywords": [
+        "amazon va",
+        "shopify",
+        "hcia storage",
+        "hcia cloud",
+        "digital marketing",
+        "artificial intelligence",
+        "python",
+        "pmp"
+      ],
+      "content": "Corvit's More Courses page lists Amazon VA, Shopify, HCIA Storage, HCIA Cloud, Digital Marketing, Artificial Intelligence, Python and PMP Training.",
+      "career_roles": [],
+      "url": "https://corvit.com/systems/more-courses/"
+    },
+    {
+      "id": "faq-what-are-corvit-s-opening-hours",
+      "type": "faq",
+      "title": "What are Corvit's opening hours?",
+      "keywords": [
+        "opening hours",
+        "timings",
+        "when open",
+        "office timing"
+      ],
+      "content": "The official Systems FAQ lists Monday-Saturday, 09:00 AM-09:00 PM.",
+      "url": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "id": "faq-does-corvit-provide-online-training",
+      "type": "faq",
+      "title": "Does Corvit provide online training?",
+      "keywords": [
+        "online",
+        "remote",
+        "online classes"
+      ],
+      "content": "Yes. Corvit says it provides online training, including for students living away from campus.",
+      "url": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "id": "faq-does-corvit-issue-certificates",
+      "type": "faq",
+      "title": "Does Corvit issue certificates?",
+      "keywords": [
+        "certificate",
+        "completion certificate"
+      ],
+      "content": "Yes. Corvit's FAQ says a training completion certificate is issued at the end of each course.",
+      "url": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "id": "faq-how-are-regular-course-fees-paid",
+      "type": "faq",
+      "title": "How are regular course fees paid?",
+      "keywords": [
+        "fee payment",
+        "pay fee",
+        "payment"
+      ],
+      "content": "The FAQ says on-campus students can pay by cash or cheque; online students can transfer via bank or PayPal. Full payment is normally required at the beginning, with some deserving students allowed two equal installments.",
+      "url": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "id": "faq-are-navttc-courses-free",
+      "type": "faq",
+      "title": "Are NAVTTC courses free?",
+      "keywords": [
+        "navttc free",
+        "free course",
+        "government free"
+      ],
+      "content": "Corvit states its NAVTTC programs are fully funded by the Government of Pakistan for eligible students. This does not mean every Corvit course is free.",
+      "url": "https://corvit.com/systems/navttc-free-courses-lahore/"
+    },
+    {
+      "id": "faq-does-corvit-have-a-sahiwal-branch",
+      "type": "faq",
+      "title": "Does Corvit have a Sahiwal branch?",
+      "keywords": [
+        "sahiwal",
+        "sahiwal branch"
+      ],
+      "content": "There is a conflict in Corvit's official Systems pages: the FAQ says there is no Sahiwal branch, while the contact page lists a 'Corvit Sahiwal' address. The chatbot should not state a definite current branch without verification.",
+      "url": "https://corvit.com/systems/faqs/"
+    },
+    {
+      "id": "schedule-ccna-83-with-free-linux",
+      "type": "schedule",
+      "title": "CCNA 83 with FREE LINUX",
+      "keywords": [
+        "ccna 83 with free linux",
+        "schedule",
+        "timetable",
+        "mr. tahir ali"
+      ],
+      "content": "CCNA 83 with FREE LINUX — Online / In Campus; trainer Mr. Tahir Ali; Daily; starts 2026-09-14; time 11:00am to 12:30pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-ccna-84-with-free-linux",
+      "type": "schedule",
+      "title": "CCNA 84 with FREE LINUX",
+      "keywords": [
+        "ccna 84 with free linux",
+        "schedule",
+        "timetable",
+        "mr. haroon malik"
+      ],
+      "content": "CCNA 84 with FREE LINUX — Online; trainer Mr. Haroon Malik; Monday, Wednesday, Friday; starts 2026-09-21; time 7:30pm to 8:30pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-fortinet-firewall-nse-4-paloalto-firewall",
+      "type": "schedule",
+      "title": "Fortinet Firewall (NSE-4) + PaloAlto Firewall",
+      "keywords": [
+        "fortinet firewall (nse-4) + paloalto firewall",
+        "schedule",
+        "timetable",
+        "mr. ahsan malik"
+      ],
+      "content": "Fortinet Firewall (NSE-4) + PaloAlto Firewall — Online; trainer Mr. Ahsan Malik; Saturday / Sunday; starts 2026-09-05; time 9:30pm onward.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-devops-modern-deployment",
+      "type": "schedule",
+      "title": "DevOps & Modern Deployment",
+      "keywords": [
+        "devops & modern deployment",
+        "schedule",
+        "timetable",
+        "mr. subhan malik"
+      ],
+      "content": "DevOps & Modern Deployment — Online; trainer Mr. Subhan Malik; Saturday / Sunday; starts 2026-09-12; time 7:30pm to 9:00pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-aws-solution-architect-associate",
+      "type": "schedule",
+      "title": "AWS Solution Architect Associate",
+      "keywords": [
+        "aws solution architect associate",
+        "schedule",
+        "timetable",
+        "mr. subhan malik"
+      ],
+      "content": "AWS Solution Architect Associate — Online; trainer Mr. Subhan Malik; Saturday / Sunday; starts 2026-09-12; time 6:00pm to 7:30pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-ceh-certified-ethical-hacking",
+      "type": "schedule",
+      "title": "CEH (Certified Ethical Hacking)",
+      "keywords": [
+        "ceh (certified ethical hacking)",
+        "schedule",
+        "timetable",
+        "mr. ahsan malik"
+      ],
+      "content": "CEH (Certified Ethical Hacking) — Online / In Campus; trainer Mr. Ahsan Malik; Monday, Wednesday, Friday; starts 2026-09-02; time 8:45pm to 10:00pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-artificial-intelligence-ml-dl",
+      "type": "schedule",
+      "title": "Artificial Intelligence (ML / DL)",
+      "keywords": [
+        "artificial intelligence (ml / dl)",
+        "schedule",
+        "timetable",
+        "mr. m. kamran khan"
+      ],
+      "content": "Artificial Intelligence (ML / DL) — Online / In Campus; trainer Mr. M. Kamran Khan; Saturday / Sunday; starts 2026-09-19; time 6:00pm to 8:00pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-python",
+      "type": "schedule",
+      "title": "Python",
+      "keywords": [
+        "python",
+        "schedule",
+        "timetable",
+        "mr. syed qaswar"
+      ],
+      "content": "Python — Online / In Campus; trainer Mr. Syed Qaswar; Saturday / Sunday; starts 2026-09-19; time 6:00pm to 7:00pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-web-development-mern-stack",
+      "type": "schedule",
+      "title": "Web Development (MERN Stack)",
+      "keywords": [
+        "web development (mern stack)",
+        "schedule",
+        "timetable",
+        "mr. syed qaswar"
+      ],
+      "content": "Web Development (MERN Stack) — Online / In Campus; trainer Mr. Syed Qaswar; Saturday / Sunday; starts 2026-09-19; time 2:00pm to 4:00pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-mcse-2025-with-free-azure-cloud",
+      "type": "schedule",
+      "title": "MCSE 2025 with FREE Azure Cloud",
+      "keywords": [
+        "mcse 2025 with free azure cloud",
+        "schedule",
+        "timetable",
+        "mr. asif shafiq"
+      ],
+      "content": "MCSE 2025 with FREE Azure Cloud — Online / In Campus; trainer Mr. Asif Shafiq; Monday, Wednesday, Friday; starts 2026-09-02; time 6:30pm to 7:30pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "schedule-seo-57-search-engine-optimization",
+      "type": "schedule",
+      "title": "SEO 57 (Search Engine Optimization)",
+      "keywords": [
+        "seo 57 (search engine optimization)",
+        "schedule",
+        "timetable",
+        "mr. muhammad talha"
+      ],
+      "content": "SEO 57 (Search Engine Optimization) — Online / In Campus; trainer Mr. Muhammad Talha; Saturday / Sunday; starts 2026-09-05; time 6:00pm to 7:00pm.",
+      "url": "https://corvit.com/systems/lahore-schedule/",
+      "image": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png"
+    },
+    {
+      "id": "career-network-engineer",
+      "type": "career",
+      "title": "Network Engineer",
+      "keywords": [
+        "network engineer",
+        "networking career",
+        "router",
+        "switch"
+      ],
+      "content": "Career path: Network Engineer. Suggested course sequence: CCNA, CCNP, CCIE / specialization.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-cybersecurity-professional",
+      "type": "career",
+      "title": "Cybersecurity Professional",
+      "keywords": [
+        "cybersecurity career",
+        "soc",
+        "penetration tester",
+        "ethical hacker"
+      ],
+      "content": "Career path: Cybersecurity Professional. Suggested course sequence: CCNA/network fundamentals, Cyber Security, CEH, specialized security.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-cloud-engineer",
+      "type": "career",
+      "title": "Cloud Engineer",
+      "keywords": [
+        "cloud engineer",
+        "aws career",
+        "azure career"
+      ],
+      "content": "Career path: Cloud Engineer. Suggested course sequence: Networking/Linux, Cloud Computing, AWS or Azure, DevOps.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-devops-engineer",
+      "type": "career",
+      "title": "DevOps Engineer",
+      "keywords": [
+        "devops career",
+        "docker",
+        "kubernetes",
+        "ci/cd"
+      ],
+      "content": "Career path: DevOps Engineer. Suggested course sequence: Linux, Python/Bash, Cloud, DevOps, Docker/Kubernetes/Terraform.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-ai-ml-engineer",
+      "type": "career",
+      "title": "AI / ML Engineer",
+      "keywords": [
+        "ai engineer",
+        "machine learning",
+        "ml engineer",
+        "deep learning"
+      ],
+      "content": "Career path: AI / ML Engineer. Suggested course sequence: Python, AI/ML, Deep Learning, Projects, Deployment/MLOps.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-python-software-developer",
+      "type": "career",
+      "title": "Python / Software Developer",
+      "keywords": [
+        "python developer",
+        "software developer",
+        "backend developer"
+      ],
+      "content": "Career path: Python / Software Developer. Suggested course sequence: Python, Web Development, Backend.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-web-developer",
+      "type": "career",
+      "title": "Web Developer",
+      "keywords": [
+        "web developer",
+        "frontend",
+        "backend",
+        "full stack"
+      ],
+      "content": "Career path: Web Developer. Suggested course sequence: Web Development, MERN/full-stack pathway.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-graphic-designer-video-editor",
+      "type": "career",
+      "title": "Graphic Designer / Video Editor",
+      "keywords": [
+        "graphic designer",
+        "video editor",
+        "design career"
+      ],
+      "content": "Career path: Graphic Designer / Video Editor. Suggested course sequence: Graphic Designing & Video Editing.",
+      "url": "https://corvit.com/systems/"
+    },
+    {
+      "id": "career-digital-marketer-seo-specialist",
+      "type": "career",
+      "title": "Digital Marketer / SEO Specialist",
+      "keywords": [
+        "seo",
+        "digital marketing",
+        "marketing career"
+      ],
+      "content": "Career path: Digital Marketer / SEO Specialist. Suggested course sequence: SEO, Digital Marketing.",
+      "url": "https://corvit.com/systems/"
+    }
+  ]
+}

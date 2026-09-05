@@ -1,0 +1,11 @@
+# API keys / secrets
+api-key.txt
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
